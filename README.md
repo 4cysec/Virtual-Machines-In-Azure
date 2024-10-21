@@ -1,17 +1,13 @@
  <h1>Virtual-Machines-In-Azure</h1>
 
 <h2>Description</h2>
-Vulnerability scans are executed on a Windows 10 virtual machine using Tenable's Nessus Essentials tool. The Windows 10 machine is set up with a few different configurations to analyze the differences in scan results. 
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>Nessus Essentials 10.8.1</b> 
+Brief set up of a Windows Server 2019 VM and Windows 10 VM in Microsoft Azure. 
 
 
 <h2>Environments Used </h2>
-
-- <b>VMWare Workstation Pro 17</b>
-- <b>Windows 10 Pro</b>
+- <b>Microsoft Azure Cloud</b>
+- <b>Windows Server 2019</b>
+- <b>Windows 10</b>
 
 
 
