@@ -5,6 +5,7 @@ Brief set up of a Windows Server 2019 VM and Windows 10 VM in Microsoft Azure.
 
 
 <h2>Environments Used </h2>
+
 - <b>Microsoft Azure Cloud</b>
 - <b>Windows Server 2019</b>
 - <b>Windows 10 Pro</b>
@@ -68,6 +69,27 @@ Fill in the Admin sign in credentials. In our case for username 'helpdesk' and t
 
 
 ___________________________________________________________________________________________________________________________________________________________
+
+<b>Deploying Windows 10 Pro Virtual Machine</b>
+
+To set up and deploy the Windows 10 VM, we follow the same steps above.
+
+Once we get to the Instance Details, we choose the following.
+
+<img src= https://github.com/user-attachments/assets/83f53296-0694-4f3a-8f95-01ee8d626bd1 width="600" height="300" />
+
+
+The name given is Windows, the region that worked for our configuration is East US 2 with the Windows 10 pro image.
+
+All of the other settings will be the same as the Server2019 VM including the Administrator Account Credentials, Inbound Port Rules, 
+VM Architecture and Size.
+
+Click Review + Create and create the VM once the Validation is passed.
+
+Once the Windows 10 pro VM is deployed we connect through RDP the same way we did with the Server2019 VM.
+
+<img src= https://github.com/user-attachments/assets/16713709-734f-4844-b31d-edefa65f3a14 width="600" height="400" />
+
 
 
 
